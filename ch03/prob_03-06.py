@@ -5,6 +5,7 @@ def prob06():
         age = int(input("年齢を整数で入力してください: "))
     except:
         print("数字として解釈できませんでした。")
+        return
     
     if age < 0:
         print("我々とは違う時間軸に生きているようですね。")
